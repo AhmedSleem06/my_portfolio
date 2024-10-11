@@ -11,31 +11,31 @@ function App() {
   }
   const skills: Skill[] = [
     {
-      src: "/html.webp",
+      src: "/my_portfolio/html.webp",
       text: "HTML structures web content.",
     },
     {
-      src: "/css.png",
+      src: "/my_portfolio/css.png",
       text: "CSS styles web content.",
     },
     {
-      src: "/js.webp",
+      src: "/my_portfolio/js.webp",
       text: "JavaScript adds interactivity to web content.",
     },
     {
-      src: "/reactJs.png",
+      src: "/my_portfolio/reactJs.png",
       text: "React.js builds user interfaces with components.",
     },
     {
-      src: "/tailwind.png",
+      src: "/my_portfolio/tailwind.png",
       text: "Tailwind CSS provides utility-first styling for rapid design.",
     },
     {
-      src: "/php.png",
+      src: "/my_portfolio/php.png",
       text: "PHP processes server-side logic and generates dynamic web content.",
     },
     {
-      src: "/mysql.webp",
+      src: "/my_portfolio/mysql.webp",
       text: "MySQL manages and stores relational database data.",
     },
   ];
@@ -88,7 +88,7 @@ function App() {
             // initial={{ opacity: 0, x: 100 }}
             // animate={{ opacity: 1, x: 0 }}
             // transition={{ duration: 1 }}
-            src="/profile.jfif"
+            src="/my_portfolio/profile.jfif"
             className="rounded-full h-64"
           />
         </motion.div>
